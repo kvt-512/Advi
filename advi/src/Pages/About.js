@@ -6,16 +6,16 @@ import teamImg from "../assets/team.jpg";
 
 const About = () => {
   return (
-    <div id="about" className="px-5 mx-5">
+    <div id="about" className="container">
       <h2 className="text-center pt-5">About Us</h2>
       <div className="d-flex justify-content-center">
         <img
           src={teamImg}
           alt="team"
-          className="h-75 w-75 position-relative my-2"
+          className="h-75 w-100 position-relative my-2"
         ></img>
       </div>
-      <p className="px-5 text-justify">
+      <p className="text-justify">
         M/s ADVI GROUP of Companies with diversification in ventures with nearly
         one decades of experience in managing the systems and workings of global
         enterprises, we expertly steer our clients through their digital
