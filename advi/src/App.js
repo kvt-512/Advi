@@ -16,12 +16,12 @@ const App = () => {
     <div className="App">
       <Header />
       <Home />
-      <About />
-      <Business />
       <Companies />
+      <About />
+      <Toys />
+      <Business />
       <Product />
       <Services />
-      <Toys />
       <Ventures />
       <Career />
       <Footer />

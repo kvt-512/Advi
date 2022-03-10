@@ -7,7 +7,7 @@ import teamImg from "../assets/team.jpg";
 const About = () => {
   return (
     <div id="about" className="container">
-      <h2 className="text-center pt-5">About Us</h2>
+      <h2 className="pt-5">About Us</h2>
       <div className="d-flex justify-content-center">
         <img
           src={teamImg}
