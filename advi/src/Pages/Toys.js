@@ -38,14 +38,11 @@ const Toys = () => {
       </p>
       <h3>Categories of Toys</h3>
       <Carousel responsive={responsive}  infinite={true}>
-        <div>Item 1</div>
-        <div>Item 2</div>
-        <div>Item 3</div>
-        <div>Item 4</div>
-        <div>Item 4</div>
-        <div>Item 4</div>
-        <div>Item 4</div>
-        <div>Item 4</div>
+        <div>Educational Toys</div>
+        <div>Youth Electornic Toys</div>
+        <div>Innovative Toys</div>
+        <div>Special Toys</div>
+        <div>Funny Toys</div>
       </Carousel>
     </div>
   );
