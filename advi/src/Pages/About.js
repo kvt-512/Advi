@@ -39,6 +39,22 @@ const About = () => {
         across a wide range of technologies, to the engineering efforts of our
         clients.
       </p>
+      <h4>Founder</h4>
+      <div>
+        <div></div>
+        <p>
+          The founder of ADVI GROUP of Companies is Mr.B.S.Manusudhan dynamic
+          Entrepreneur in the field of designing products had worked with CIL
+          R&D Division- SAP Division, Radio Frequency & Wireless Antenna Design
+          Wing-R&D, Mysore, Aavishkar Research Cell, Mysore.With the vision to
+          develop the employability and entrepreneurship skill in today’s young
+          generation that helps to overcome the unemployment threats.
+          Transferring manual functions to computerized systems is there vision
+          of life, with this vision they established VS Technology in 2010 . VS
+          Technology is supported by strong dynamic Team.
+        </p>
+        <a href="http://advigroups.com/manusudhan/index.html">Portfolio</a>
+      </div>
     </div>
   );
 };

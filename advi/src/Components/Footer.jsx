@@ -143,6 +143,13 @@ const Footer = () => {
               >
                 Careers
               </Link>
+              <a
+                href="https://script.google.com/macros/s/AKfycby4d7n8VKdnoDKAKxxVRRxaRqiaUlWdf3F3gPIIHG103K0gmM6Qk7ClLYv8QBHlEkbY/exec"
+                style={{ textDecoration: "none" }}
+                className="text-secondary"
+              >
+                Employe Login
+              </a>
             </Navbar>
           </div>
         </div>
