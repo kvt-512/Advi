@@ -10,10 +10,10 @@ const Map = withScriptjs(
   withGoogleMap((props) => (
     <GoogleMap
       defaultZoom={12}
-      defaultCenter={{ lat: 12.89242, lng: 77.73439 }}
+      defaultCenter={{ lat: 13.095470, lng: 77.635963 }}
     >
       {props.isMarkerShown && (
-        <Marker position={{ lat: 12.89242, lng: 77.68146 }} />
+        <Marker position={{ lat: 13.095470, lng: 77.635963 }} />
       )}
     </GoogleMap>
   ))
@@ -21,20 +21,19 @@ const Map = withScriptjs(
 
 const Contacts = () => {
   return (
-    <div id="contacts" className="container my-5 d-flex">
+    <div id="contacts" className="container my-5 py-5 d-flex">
       <div className="row">
         <h1 className="col-12 col-md-12">Contact Us</h1>
         <div className="col-12 col-md-12">
           <h3>Call Us</h3>
-          <h5>+91 9900597959</h5>
+          <h5>123456789</h5>
         </div>
         <div className="col-12 col-md-12">
           <h3>Email</h3>
-          <h5>hradvigroups@gmail.com</h5>
-          <h5>vihaansolutions@gmail.com</h5>
+          <h5>maspv22@gmail.com</h5>
         </div>
         <div className="col-12 col-md-12">
-          <a href="https://www.google.com/maps/place/Advi/@12.8827779,77.678353,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae13a0f8a10c27:0xd7c8fff5249bc277!8m2!3d12.8827867!4d77.6805435">
+          <a href="https://www.google.com/maps/place/REVA+University/@13.1163393,77.633104,17z/data=!3m1!4b1!4m5!3m4!1s0x3bae19721a651fd3:0xdee225fe28f600f6!8m2!3d13.1163393!4d77.6352927">
             Open in Google Maps
           </a>
         </div>

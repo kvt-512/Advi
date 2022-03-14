@@ -5,14 +5,13 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="bg-dark">
+    <div className="bg-dark py-5">
       <div className="container text-white">
         <div className="row">
           <div className="col-12 col-md-4">
             <h5>ADVI GROUP</h5>
             <div className="text-secondary">
-              Email: vihaansolutions@gmail.com / hradvigroups@gmail.com Mob:
-              +91-99005 97959
+              Email: msnpv22@gmail.com | Mob: 1234579
             </div>
           </div>
           <div className="col-12 col-md-4">
@@ -154,7 +153,7 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div>Copyright All Rights Reserved by ADVI Group of Companies</div>
+        <div className="text-secondary">Copyright All Rights Reserved by ADVI Group of Companies</div>
       </div>
     </div>
   );

@@ -29,21 +29,23 @@ const Toys = () => {
     "https://www.amazon.in/ADVI-GROUP-OF-COMPANIES-Chunda_Chundi/dp/B08RYR62JF/ref=sr_1_1?dchild=1&keywords=advi+group&qid=1613381130&sr=8-1";
 
   return (
-    <div id="toys" className="container">
-      <h1>Toys</h1>
-      <p>Make in INDIA /Make in KARNATAKA/ Make in MYSORE</p>
-      <p>
-        We sell our toys exclusively on <a href={amazon}>www.amazon.in</a> and{" "}
-        <a href={flipkart}>www.flipkart.com</a>
-      </p>
-      <h3>Categories of Toys</h3>
-      <Carousel responsive={responsive}  infinite={true}>
-        <div>Educational Toys</div>
-        <div>Youth Electornic Toys</div>
-        <div>Innovative Toys</div>
-        <div>Special Toys</div>
-        <div>Funny Toys</div>
-      </Carousel>
+    <div className="my-5 py-5">
+      <div id="toys" className="container">
+        <h1>Toys</h1>
+        <p>Make in INDIA /Make in KARNATAKA/ Make in MYSORE</p>
+        <p>
+          We sell our toys exclusively on <a href={amazon}>www.amazon.in</a> and{" "}
+          <a href={flipkart}>www.flipkart.com</a>
+        </p>
+        <h3>Categories of Toys</h3>
+        <Carousel responsive={responsive} infinite={true}>
+          <div>Educational Toys</div>
+          <div>Youth Electornic Toys</div>
+          <div>Innovative Toys</div>
+          <div>Special Toys</div>
+          <div>Funny Toys</div>
+        </Carousel>
+      </div>
     </div>
   );
 };

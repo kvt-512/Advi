@@ -43,7 +43,7 @@ const Header = () => {
           >
             About Us
           </Link>
-          <Link
+          {/* <Link
             to="ventures"
             activeClass="active"
             style={{ textDecoration: "none" }}
@@ -54,8 +54,8 @@ const Header = () => {
             role="button"
           >
             Our Ventures
-          </Link>
-          <Link
+          </Link> */}
+          {/* <Link
             to="business"
             activeClass="active"
             style={{ textDecoration: "none" }}
@@ -66,7 +66,7 @@ const Header = () => {
             role="button"
           >
             International Business
-          </Link>
+          </Link> */}
           <Link
             to="toys"
             activeClass="active"

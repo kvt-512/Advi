@@ -19,7 +19,7 @@ const content = {
       `4) Candidates who are not eligible will be provided with a Certificate at the end of their Internship program.`,
       `5) Eligible candidates will be appointed as a trainee with a stipend depending upon their performance and will serve a maximum of two months before being appointed full term.`,
       `6)Candidates package will be fixed only after their training period.`,
-      `7) If required candidates must bring their own laptops`
+      `7) If required candidates must bring their own laptops`,
     ],
     link: `https://docs.google.com/forms/d/e/1FAIpQLSemoKeEfILsuGzaIXNIv7iIPpIn3deK9x74yeWgkQalnQA_Lg/viewform`,
   },
@@ -53,55 +53,59 @@ const Career = () => {
   };
 
   return (
-    <div id="career" className="container">
-      <h1>Career</h1>
-      <p>
-        We at ADVI GROUPS offer a variety of jobs and internships to candidates
-        from various domains such as Computer Science, Electronics and
-        Communication, Mechanical, Civil and Architecture,Human Resource,
-        Marketing and Finance, Media and Entertainment etc
-      </p>
-      <h3>Work Experience</h3>
-      <div className="row">
-        <div className="col-12 col-md-3 row">
+    <div className="bg-black text-white my-5 py-5">
+      <div id="career" className="container">
+        <h1>Career</h1>
+        <p>
+          We at ADVI GROUPS offer a variety of jobs and internships to
+          candidates from various domains such as Computer Science, Electronics
+          and Communication, Mechanical, Civil and Architecture,Human Resource,
+          Marketing and Finance, Media and Entertainment etc
+        </p>
+        <h3>Work Experience</h3>
+        <div className="row my-3">
           <Button
-            className={`col-12 col-md-12 my-2 ${!isExp ? "btn-primary" : "btn-secondary"}`}
+            className={`col-12 col-md-5 p-2 ${
+              !isExp ? "btn-primary" : "btn-secondary"
+            }`}
             name="fresher"
             onClick={handelJob}
           >
             Fresher
           </Button>
+          <div className="col-12 col-md-2"></div>
           <Button
-            className={`col-12 col-md-12 my-2 ${isExp ? "btn-primary" : "btn-secondary"}`}
+            className={`col-12 col-md-5 p-2 ${
+              isExp ? "btn-primary" : "btn-secondary"
+            }`}
             name="exp"
             onClick={handelJob}
           >
             Exprienced
           </Button>
         </div>
-        <div className="col-12 col-md-9">
-          {isExp ? (
-            <div>
-              <h4>{content.exp.heading}</h4>
-              {content.exp.body.map((point) => {
-                return <div>{point}</div>;
-              })}
-              <a href={content.exp.link}>Proceed</a>
-            </div>
-          ) : (
-            <div className="my-2">
-              <h4>{content.fresher.heading}</h4>
-              {content.fresher.body.map((point) => {
-                return <div>{point}</div>;
-              })}
-              <h4>Terms and Conditions for Freshers.</h4>
-              {content.exp.tc.map((point) => {
-                return <div>{point}</div>;
-              })}
-              <a href={content.fresher.link}>Proceed</a>
-            </div>
-          )}
-        </div>
+        {isExp ? (
+          <div>
+            <h4>{content.exp.heading}</h4>
+            {content.exp.body.map((point) => {
+              return <div>{point}</div>;
+            })}
+          </div>
+        ) : (
+          <div className="my-2">
+            <h4>{content.fresher.heading}</h4>
+            {content.fresher.body.map((point) => {
+              return <div>{point}</div>;
+            })}
+            <h4>Terms and Conditions for Freshers.</h4>
+            {content.exp.tc.map((point) => {
+              return <div>{point}</div>;
+            })}
+          </div>
+        )}
+        <a className="btn btn-primary my-2" href={content.fresher.link}>
+          Proceed
+        </a>
       </div>
     </div>
   );
