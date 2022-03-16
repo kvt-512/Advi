@@ -26,7 +26,7 @@ const Contacts = () => {
         <h1 className="col-12 col-md-12">Contact Us</h1>
         <div className="col-12 col-md-12">
           <h3>Call Us</h3>
-          <h5>123456789</h5>
+          <h5>95350079</h5>
         </div>
         <div className="col-12 col-md-12">
           <h3>Email</h3>
