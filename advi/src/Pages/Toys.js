@@ -2,6 +2,16 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import funny from '../assets/funny.jpg';
+import vc from '../assets/voice_controlled.jpg';
+import obstacle from '../assets/obstacle.jpg';
+import funny from '../assets/funny.jpg';
+
+
+const toysImg = [
+
+]
+
 const Toys = () => {
   const responsive = {
     superLargeDesktop: {

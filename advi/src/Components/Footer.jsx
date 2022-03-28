@@ -10,9 +10,8 @@ const Footer = () => {
         <div className="row">
           <div className="col-12 col-md-4">
             <h5>ADVI GROUP</h5>
-            <div className="text-secondary">
-              Email: msnpv22@gmail.com | Mob: 1234579
-            </div>
+            <div className="text-secondary">Email: msnpv22@gmail.com</div>
+            <div className="text-secondary">Mob: 9535007933</div>
           </div>
           <div className="col-12 col-md-4">
             <h4>OUR FAMILIES</h4>
@@ -153,7 +152,9 @@ const Footer = () => {
           </div>
         </div>
         <hr />
-        <div className="text-secondary">Copyright All Rights Reserved by ADVI Group of Companies</div>
+        <div className="text-secondary">
+          Copyright All Rights Reserved by ADVI Group of Companies
+        </div>
       </div>
     </div>
   );

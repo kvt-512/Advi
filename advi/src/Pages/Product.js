@@ -71,16 +71,18 @@ const Product = () => {
   };
 
   return (
-    <div id="products" className="container">
-      <h1>Products</h1>
-      <Carousel responsive={responsive} infinite={true}>
-        {products.title.map((title) => {
-          return <div>{title}</div>;
-        })}
-        {proImg.img.map((img) => {
-          return <img className="h-100 w-100" src={img}></img>;
-        })}
-      </Carousel>
+    <div className="my-5 py-5">
+      <div id="products" className="container">
+        <h1>Products</h1>
+        <Carousel responsive={responsive} infinite={true}>
+          {products.title.map((title) => {
+            return <div>{title}</div>;
+          })}
+          {proImg.img.map((img) => {
+            return <img className="h-100 w-100" src={img}></img>;
+          })}
+        </Carousel>
+      </div>
     </div>
   );
 };
